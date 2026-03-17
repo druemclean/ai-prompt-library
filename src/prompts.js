@@ -1,5 +1,5 @@
 /**
- * OpGo Marketing Prompt Library - Prompt Data
+ * Marketing Prompt Library - Prompt Data
  * =============================================
  *
  * HOW TO ADD A NEW PROMPT:
