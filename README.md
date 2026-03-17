@@ -1,6 +1,6 @@
-# OpGo Marketing Prompt Library
+# Marketing AI Prompt Library
 
-Interactive prompt template library for OpGo Marketing. Fill in variables, preview the output, and copy ready-to-use prompts for Claude, ChatGPT, or any AI assistant.
+Interactive prompt template library for marketing purposes. Fill in variables, preview the output, and copy ready-to-use prompts for Claude, ChatGPT, or any AI assistant.
 
 **Live site:** [https://druemclean.github.io/ai-prompt-library/](https://druemclean.github.io/ai-prompt-library/)
 
