@@ -33,14 +33,14 @@ export const PROMPTS = [
     title: "Search Terms Analysis",
     description: "Analyze a Google Ads search terms report for wasted spend, keyword mapping issues, negative keyword opportunities, and new keyword ideas.",
     variables: [
-      { key: "client_name", label: "Client Name", type: "text", placeholder: "e.g., Austin's Towing & Recovery" },
-      { key: "campaign_names", label: "Campaign Name(s)", type: "text", placeholder: "e.g., Search - Heavy Duty - Leads" },
+      { key: "client_name", label: "Client Name", type: "text", placeholder: "e.g., Acme Corporation" },
+      { key: "campaign_names", label: "Campaign Name(s)", type: "text", placeholder: "e.g., PMax - Web Design" },
       { key: "campaign_goal", label: "Campaign Goal", type: "select", options: ["Lead generation (calls/forms)", "E-commerce sales", "Brand awareness/traffic", "Other"] },
-      { key: "target_services", label: "Target Services/Products", type: "text", placeholder: "e.g., heavy-duty towing, semi recovery, long haul transport" },
+      { key: "target_services", label: "Target Services/Products", type: "text", placeholder: "e.g., new website builds, website audits, conversion tracking setup" },
       { key: "geo_target", label: "Geographic Target", type: "text", placeholder: "e.g., 60-mile radius around Fargo-Moorhead" },
       { key: "date_range", label: "Date Range of Export", type: "text", placeholder: "e.g., Feb 5 - Mar 15, 2026" },
       { key: "monthly_budget", label: "Monthly Budget", type: "text", placeholder: "e.g., $1,000/mo" },
-      { key: "irrelevant_topics", label: "Known Irrelevant Topics to Flag", type: "text", placeholder: "e.g., light-duty towing, car towing, DIY, jobs/careers" },
+      { key: "irrelevant_topics", label: "Known Irrelevant Topics to Flag", type: "text", placeholder: "e.g., marketing courses, marketing jobs, marketing templates" },
       { key: "custom_goal", label: "Custom Goal Details (if Other)", type: "text", placeholder: "Describe the campaign goal", condition: { key: "campaign_goal", value: "Other" } },
     ],
     template: `I'm uploading a Google Ads search terms report export (CSV) for {{client_name}}.
